@@ -3,4 +3,4 @@
 set -euo pipefail
 set -x
 
-pip install -e '.'
+uv pip install --system -e .[dev]
